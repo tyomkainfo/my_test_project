@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: yellow;
+    font-size: 20px;
+    background-color: blue;
+    max-width: 1200px;
+}
+a{
+    font-size: 50px;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#green_block{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.block_2.item{
+    color: purple;
+}
+
+header nav li a{
+    color: black;
+}
+
+header nav, li a{
+    color: black;
+}
+
+.menu-wrapper.menu-wrapper_state_static{
+    color: black;
+}
+
+

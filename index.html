@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<p style="background-color: green; max-width: 500px;">Enter your email and password to register.Enter your email and
+    password ail and password to register.Enter your email and passwoail and password to register.Enter your email and
+    passwoto register.</p>
+
+
+<form action="" method="post" name="register">
+    <div>
+        <label for="first_name" style="display:block">First Name</label>
+        <input id="first_name" type="text" name="first_name" style="width: 300px; height: 40px;"
+               placeholder="First Name"/>
+    </div>
+    <div>
+        <label for="last_name" style="display:block">Last Name</label>
+        <input id="last_name" type="text" name="last_name" style="width: 300px; height: 40px;" placeholder="last Name"/>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="agree" checked>
+            I agree about terms .......
+        </label>
+    </div>
+    <div>
+        <h3>Gender</h3>
+        <label>
+            <input type="radio" name="gender" value="man" />
+            Man
+        </label>
+        <label>
+            <input type="radio" name="gender" value="woman" />
+            WoMan
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other" />
+            other
+        </label>
+    </div>
+    <div>
+        <input type="file" name="load">
+    </div>
+    <div>
+        <label for="message" style="display:block">Message</label>
+        <textarea name="message" id="message" style="width: 300px; height: 150px; resize: none"></textarea>
+
+    </div>
+    <div>
+        <label for="city" style="display:block">City</label>
+        <select id="city" name="city">
+            <option>Kiev</option>
+            <option>Odesa</option>
+            <option selected>Kharkiv</option>
+        </select>
+    </div>
+    <button type="reset">reset</button>
+    <button type="submit">send</button>
+</form>
+
+
+</body>
+</html>
